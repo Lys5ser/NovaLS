@@ -14,7 +14,7 @@ public class NovaLSBasicGui extends JFrame {
     private JTextField searchField;
 
     public NovaLSBasicGui(Directory root) {
-        super("NovaLS Basic Explorer");
+        super("NovaLS File System");
         this.root = root;
         this.treeModel = buildTreeModel(root);
         this.tree = new JTree(treeModel);
