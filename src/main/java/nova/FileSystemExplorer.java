@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Service class for searching and exploring the filesystem.
- */
 public class FileSystemExplorer {
     private final Directory root;
 

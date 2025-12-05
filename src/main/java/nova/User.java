@@ -1,17 +1,11 @@
 package nova;
 
-/**
- * Represents a user who can create filesystem entries.
- */
+// user ist nur in der Adresse sichtbar, da wir es nicht für notwendig empfunden haben
 public class User {
     private final String username;
 
     public User(String username) {
         this.username = username;
-    }
-
-    public String getUsername() {
-        return username;
     }
 
     @Override

@@ -40,13 +40,6 @@ public class Directory extends FileSystemEntry {
         return total;
     }
 
-    /**
-     * Prints the directory tree structure recursively.
-     */
-    public void printTree() {
-        printTree(0);
-    }
-
     private void printTree(int indent) {
         System.out.println("  ".repeat(indent) + getName() + "/");
         for (FileSystemEntry entry : children) {

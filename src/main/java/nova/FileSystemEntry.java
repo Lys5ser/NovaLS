@@ -42,9 +42,6 @@ public abstract class FileSystemEntry implements Comparable<FileSystemEntry>, Se
         this.parent = parent;
     }
 
-    /**
-     * Builds the full path from root to this entry.
-     */
     public String getPath() {
         if (parent == null) {
             return "/" + name;
@@ -53,9 +50,6 @@ public abstract class FileSystemEntry implements Comparable<FileSystemEntry>, Se
         }
     }
 
-    /**
-     * Returns the size of this entry (abstract).
-     */
     public abstract long getSize();
 
     @Override
