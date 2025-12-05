@@ -42,8 +42,8 @@ public class NovaLSBasicGui extends JFrame {
         fileContentArea.setEditable(false); // Nicht editierbar
 
         // Grundlegende Fenstereinstellungen
-        setDefaultCloseOperation(EXIT_ON_CLOSE); // Programm beenden beim Schließen
-        setSize(700, 400); // Größe des Fensters
+        setDefaultCloseOperation(EXIT_ON_CLOSE); // Programm beenden beim Schliessen
+        setSize(700, 400); // Grösse des Fensters
         setLocationRelativeTo(null); // Zentriert auf dem Bildschirm
         setLayout(new BorderLayout()); // Layout-Manager für das Layout
 
@@ -225,7 +225,7 @@ public class NovaLSBasicGui extends JFrame {
                                                                                                             // Inhalt
             if (newContent != null) {
                 file.setContent(newContent); // Inhalt setzen
-                file.setSize(newContent.length()); // Größe aktualisieren
+                file.setSize(newContent.length()); // Grösse aktualisieren
                 fileContentArea.setText(newContent); // Anzeigen
             }
         } else if (obj instanceof Directory dir) { // Wenn Verzeichnis
